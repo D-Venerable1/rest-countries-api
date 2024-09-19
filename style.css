@@ -44,6 +44,14 @@ body{
     color: #fff;
 }
 
+.dark-mode .countryModal {
+    background-color: #202D36;
+    color: white;
+}
+.dark-mode .country-Modal button{
+    color: #fff;
+}
+
 button{
 outline: none;
 border: 0;

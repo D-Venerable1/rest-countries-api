@@ -127,10 +127,10 @@ themeToggle.addEventListener('click', () => {
 
     // Ensure you have the correct selectors for the modal and head elements
     const head = document.querySelector('.head'); // or document.getElementById('head')
+    const countryModal = document.querySelector('.countryModal')
 
     if (countryModal) countryModal.classList.toggle('dark-mode');
     if (head) head.classList.toggle('dark-mode');
-    
     themeToggle.style.color = document.body.classList.contains('dark-mode') ? 'white' : 'black';
 
 });
