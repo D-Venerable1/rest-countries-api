@@ -70,7 +70,7 @@ background: transparent;
     border: 0;
     font-size: 15px;
     letter-spacing: 0.5px;
-    
+    background-color: transparent;
     z-index: -10;
 }
 
@@ -123,6 +123,8 @@ background: transparent;
 .country-img img{
     width: 100%;
     height: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
 }
 .country-info{
     padding: 8px;
