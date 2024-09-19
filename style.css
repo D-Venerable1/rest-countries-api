@@ -51,7 +51,15 @@ body{
 .dark-mode .country-Modal button{
     color: #fff;
 }
+.dark-mode #region-filter {
+    background-color: #202D36;
+    color: white;
+}
 
+/* .dark-mode #region-filter option {
+    background-color: #202D36;
+    color: white;
+} */
 button{
 outline: none;
 border: 0;
@@ -236,6 +244,44 @@ p {
 
 .info strong, .border-countries strong, .extra-info strong{
     margin-right: 5px;
+}
+
+@media screen and (min-width: 320px) and (max-width:426px) {
+    .head h1{
+        font-size: 5.5vw;
+
+    }
+    .head{
+        padding-left: 3vw;
+    }
+    .form-control{
+        width: 95%;
+    }
+    .head-section{
+        flex-direction: column;
+        margin: 5.625rem 0.438rem;
+    }
+    #region-filter{
+        width: 70%;
+        margin-top: 30px;
+    }
+    .form-control input::placeholder{
+        margin-right: 5.938rem;
+    }
+    .country{
+        width: 95%;
+    }
+    .countries{
+        margin-top: -60px;
+        padding: 20px;
+    }
+    .country-Modal{
+
+    }
+    .country-detail{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
